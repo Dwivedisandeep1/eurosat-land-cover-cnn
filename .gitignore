@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data (downloaded automatically by the notebook)
+data/
+
+# Trained weights (about 45 MB). Remove this line if you want to commit the trained model.
+models/*.pt
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
